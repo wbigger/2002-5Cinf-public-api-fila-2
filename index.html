@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Fila 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="buttons-container">
+            <button class="today" onclick="getToday()">Oggi</button>
+            <button class="tomorrow" onclick="getTomorrow()">Domani</button>
+        </div>
+        <div class="date">
+            <div class="day">[day]</div>
+            <div class="month-year-weekday">
+                <div class="month-year">
+                    <span class="month">[month]</span>
+                    <span class="year">[year]</span>
+                </div>
+                <div class="weekday">[weekday]</div>
+            </div>
+        </div>
+        <div class="santo-container">
+            <div>Santi del giorno</div>
+            <div class="santo"></div>
+        </div>
+        <div class="cake"><img src="https://marconi-civitavecchia-rm.registroelettronico.com/mastercom/icone/cake.png" alt="A birthday's cake"></div>
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
